@@ -1,0 +1,96 @@
+$date
+	Thu Nov  7 06:17:19 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_8_1_logic_tb $end
+$var wire 4 ! y [3:0] $end
+$var reg 4 " i0 [3:0] $end
+$var reg 4 # i1 [3:0] $end
+$var reg 4 $ i2 [3:0] $end
+$var reg 4 % i3 [3:0] $end
+$var reg 4 & i4 [3:0] $end
+$var reg 4 ' i5 [3:0] $end
+$var reg 4 ( i6 [3:0] $end
+$var reg 4 ) i7 [3:0] $end
+$var reg 3 * s [2:0] $end
+$scope module uut $end
+$var wire 4 + i0 [3:0] $end
+$var wire 4 , i1 [3:0] $end
+$var wire 4 - i2 [3:0] $end
+$var wire 4 . i3 [3:0] $end
+$var wire 4 / i4 [3:0] $end
+$var wire 4 0 i5 [3:0] $end
+$var wire 4 1 i6 [3:0] $end
+$var wire 4 2 i7 [3:0] $end
+$var wire 3 3 s [2:0] $end
+$var wire 4 4 y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 4
+b0 3
+b1000 2
+b111 1
+b110 0
+b101 /
+b100 .
+b11 -
+b10 ,
+b1 +
+b0 *
+b1000 )
+b111 (
+b110 '
+b101 &
+b100 %
+b11 $
+b10 #
+b1 "
+b1 !
+$end
+#1
+b10 !
+b10 4
+b1 *
+b1 3
+#2
+b11 !
+b11 4
+b10 *
+b10 3
+#3
+b100 !
+b100 4
+b11 *
+b11 3
+#4
+b101 !
+b101 4
+b100 *
+b100 3
+#5
+b110 !
+b110 4
+b101 *
+b101 3
+#6
+b111 !
+b111 4
+b110 *
+b110 3
+#7
+b1000 !
+b1000 4
+b111 *
+b111 3
+#8
